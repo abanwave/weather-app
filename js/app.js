@@ -1,2 +1,4 @@
 console.log("به اپلیکیشن آب‌وهوا خوش آمدید!");
 console.log("فایل HTML با موفقیت به جاوااسکریپت متصل شد.");
+const title = document.querySelector("#title");
+title.textContent = "Weather App";
